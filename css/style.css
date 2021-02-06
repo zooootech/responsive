@@ -21,6 +21,8 @@
   align-items: center;
 }
 .card {
+  /* cardクラスを横に3つ並べ、card同士の幅を25pxにする */
+  /* 親要素の幅から25pxのmargin×2を引いて、それを3で割った数 */
   width: calc((100% - 50px) / 3);
   margin-bottom: 40px;
 }
@@ -42,3 +44,4 @@
   text-align: center;
   color: #fff;
   font-size: 10px;
+}
