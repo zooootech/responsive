@@ -51,5 +51,21 @@
 /* 「max-width: 500px」の部分は「画面幅が最大500pxのとき」という意味になるので、すなわち「画面幅が500px以下のとき」という意味になる */
 /* タブレット表示時 */
 @media (max-width: 1024px) {
-
+  .inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .page-heading {
+    font-size: 24px;
+  }
+  .card {
+    width: 48%;
+    margin-bottom: 40px;
+  }
+  .card__title {
+    font-size: 20px;
+  }
+  .card__summary {
+    font-size: 16px;
+  }
 }
